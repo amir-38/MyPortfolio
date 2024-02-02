@@ -1,5 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
+import CV from "../../../assets/Amir's Resume";
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <>
@@ -23,11 +24,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <li>
               <a className="menu-item">Contact</a>
             </li>
-            <a
-              href="../public/assets/Amir's Resume.pdf"
-              className="download-link"
-              download
-            >
+            <a href={CV} className="download-link" download>
               <button className="contact-btn">Download CV</button>
             </a>
           </ul>
