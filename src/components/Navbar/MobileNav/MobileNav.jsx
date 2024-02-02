@@ -1,6 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
-import CV from "../../../assets/Amir's Resume";
+import CV from "../../../assets/resume.pdf";
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <>
