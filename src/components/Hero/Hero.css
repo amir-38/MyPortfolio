@@ -54,7 +54,7 @@
    gap: 2rem;
 }
 .hero-img>div>img{
-   width: 25rem;
+   width: 18rem;
    transition: all 0.3s ease;
    border-radius: 60px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import ReactLogo from "../../assets/react.png";
-import AvatarLogo from "../../assets/avatar.png";
+import AvatarLogo from "../../assets/img.jpg";
 import JSLogo from "../../assets/javascript.png";
 import HtmlLogo from "../../assets/html.png";
 import CssLogo from "../../assets/css.png";
@@ -22,7 +22,7 @@ const Hero = ({ id }) => {
             <div className="tech-icon">
               <img src={ReactLogo} alt="" />
             </div>
-            <img src={AvatarLogo} alt="anime portrait" />
+            <img src={AvatarLogo} alt=" portrait" />
           </div>
 
           <div>

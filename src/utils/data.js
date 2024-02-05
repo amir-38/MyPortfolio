@@ -10,23 +10,23 @@ export const SKILLS = [
     skills: [
       { skill: "HTML5", percentage: "89%" },
       { skill: "CSS3(Sass/SCSS)", percentage: "81%" },
-      { skill: "JavaScript", percentage: "42%" },
+      { skill: "JavaScript", percentage: "62%" },
     ],
   },
   {
     title: "Libraries",
     icon: server,
     skills: [
-      { skill: "React.js", percentage: "45%" },
-      { skill: "Bootstrap", percentage: "64%" },
-      { skill: "NPM", percentage: "77%" },
+      { skill: "React.js", percentage: "75%" },
+      { skill: "Bootstrap", percentage: "84%" },
+      { skill: "NPM", percentage: "67%" },
     ],
   },
   {
     title: "Tools",
     icon: icon1,
     skills: [
-      { skill: "GitHub", percentage: "60%" },
+      { skill: "GitHub", percentage: "87%" },
       { skill: "Wisual Studio Code", percentage: "90%" },
       { skill: "Responsive Design", percentage: "73%" },
     ],
@@ -36,7 +36,7 @@ export const SKILLS = [
     icon: searching,
     skills: [
       { skill: "Problem-solving", percentage: "81%" },
-      { skill: "Collaboration", percentage: "75%" },
+      { skill: "Collaboration", percentage: "85%" },
       { skill: "Attention to Details", percentage: "96%" },
     ],
   },
