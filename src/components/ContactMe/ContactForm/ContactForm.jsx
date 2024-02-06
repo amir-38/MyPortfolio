@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./ContactForm.css";
@@ -8,6 +8,17 @@ function ContactForm() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
+
+    // check email
+    const emailField = event.target.querySelector('input[name="email"]');
+    const email = emailField.value.trim();
+    if (!validateEmail(email)) {
+      toast.error("Please enter a valid email address.", {
+        position: "bottom-right",
+        theme: "colored",
+      });
+      return;
+    }
 
     try {
       const formData = new FormData(event.target);
@@ -43,13 +54,19 @@ function ContactForm() {
     }
   };
 
+  // check email funk
+  const validateEmail = (email) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  };
+
   return (
     <div className="contact-form-content">
       <form ref={formRef} onSubmit={onSubmit}>
         <div className="name-container">
           <input type="text" name="firstname" placeholder="Name" required />
         </div>
-        <input type="text" name="email" placeholder="Email" required />
+        <input type="email" name="email" placeholder="Email" required />
         <textarea name="message" placeholder="Message" rows={3} required />
         <button type="submit">Send</button>
       </form>

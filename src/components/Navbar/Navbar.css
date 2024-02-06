@@ -107,6 +107,9 @@
       width: 6rem;
       height: auto;
    }
+   /* .menu-btn:hover{
+      touch-action:auto;
+   } */
 }
 @media (max-width:769px){
    .menu-btn{

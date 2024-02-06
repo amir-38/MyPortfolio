@@ -1,6 +1,7 @@
 import React from "react";
 import "./MobileNav.css";
 import CV from "../../../assets/resume.pdf";
+import mobileLogo from "../../../assets/logo.png";
 const MobileNav = ({ isOpen, toggleMenu }) => {
   const smoothScrollTo = (targetY, duration) => {
     const startingY = window.pageYOffset;
@@ -39,7 +40,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <img className="logo" src="../public/assets/technology.png" alt="" />
+          <img className="logo" src={mobileLogo} alt="mobile nav logo" />
 
           <ul>
             <li>
