@@ -2,8 +2,8 @@ import React from "react";
 import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
-import gitLogo from "../../assets/github.png";
-import mailLogo from "../../assets/email.png";
+import gitLogo from "../../assets/github.webp";
+import mailLogo from "../../assets/email.webp";
 const ContactMe = ({ id }) => {
   return (
     <section id={id} className="contact-container">

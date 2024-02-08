@@ -1,7 +1,7 @@
-import icon2 from "../assets/icon2.png";
-import server from "../assets/server.png";
-import icon1 from "../assets/icon1.png";
-import searching from "../assets/searching.png";
+import icon2 from "../assets/icon2.webp";
+import server from "../assets/server.webp";
+import icon1 from "../assets/icon1.webp";
+import searching from "../assets/searching.webp";
 
 export const SKILLS = [
   {
