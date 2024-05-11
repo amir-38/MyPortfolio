@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import ReactLogo from "../../assets/react.webp";
-import AvatarLogo from "../../assets/img.jpeg";
+import AvatarLogo from "../../assets/foto.webp";
 import JSLogo from "../../assets/javascript.webp";
 import HtmlLogo from "../../assets/html.webp";
 import CssLogo from "../../assets/css.webp";
