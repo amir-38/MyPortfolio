@@ -63,6 +63,16 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
+    title: "ClockWidget",
+    date: "https://github.com/amir-38/ClockWidget",
+    responsibilities: [
+      "Electron: ClockWidget is developed using Electron, a platform for building cross-platform applications using web technologies.",
+      "HTML/CSS/JavaScript: Standard web technologies HTML, CSS, and JavaScript are used for developing the user interface and application logic.",
+      "Node.js: Node.js is used for package management and application building.",
+      "NSIS (Nullsoft Scriptable Install System): NSIS is used for creating the installation package for Windows.",
+    ],
+  },
+  {
     title: "Online Food Market ",
     date: "https://github.com/amir-38/market-react",
     responsibilities: [
